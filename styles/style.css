@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav style start */
+.nav-content {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img,
+p {
+    margin-right: 10px;
+}
+
+.nav-logo p {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-logo span {
+    color: #ff2ac5;
+    ;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    margin-right: 23px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-icon {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px 10px;
+}
+
+.nav-icon img {
+    width: 10%;
+}
+
+.nav-icon li,
+img {
+    margin-right: 15px;
+}
+
+/* banner style start */
+.banner {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.banner-content h1 {
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#sing-in-btn {
+    border-radius: 48px;
+    padding: 15px 40px;
+    background-color: #FF42A5;
+    color: #ffff;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#go-rogue-btn{
+    border-radius: 48px;
+    padding: 15px 40px;
+    background-color: #4EC5F7;;
+    color: #ffff;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.primary-text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-img {
+    width: 40vw;
+}
+
+.banner-img img {
+    width: 100%;
+}
