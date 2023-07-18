@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+    .nav-content{
+        flex-direction: column;
+    }
+    .nav-logo{
+        margin-bottom: 20px;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+    }
+    .nav-menu ul > li{
+        margin-bottom: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 80vw;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+    }
+    .banner-content h2 {
+        font-size: 30px;
+    }
+}
