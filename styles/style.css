@@ -148,6 +148,7 @@ img {
 .online-games{
     width: 80vw;
     margin: 0 auto;
+    margin-bottom: 75px;
 }
 .online-title-text{
     text-align: center;
@@ -166,50 +167,12 @@ img {
     width: 18vw;
     position:relative;
 }
-.box-color{
-    width: 18vw;
-    height: 287px;
-    position: absolute;
-    bottom: 5px;
-    border-radius: 10px;
-    background-color: red;
-    display: none;
-}
-.play-btn{
-    position: absolute;
-    bottom: 117px;
-    left: 79px;
-    text-align: center;
-    display: none;
-    color:#ff2ac5
-}
-.single-games-box:hover .box-color{
-    background-color:#0000008a;
-    z-index: 3;
-    display:block;
-}
-.single-games-box:hover .play-btn{
-    display: block;
-    z-index: 4;
-}
 .single-games-box > img{
     width: 100%;
-    z-index: 2;
+    margin-bottom: 10px;
 }
-.play-icon img {
-    width: 10px;
-}
-.single-games-box .play-icon{
-    position: relative;
-    bottom: 154px;
-    left: 101px;
-    display: none;
-}
-.single-games-box:hover .play-icon{
-    display: block;
-}
-.hide{
-    display: none;
+.single-games-box p{
+    color:#534C64;
 }
 /* play instantly */
 .play-instantly{
