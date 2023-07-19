@@ -50,16 +50,7 @@
 
     .single-games-box {
         width: 80vw;
-    }
-
-    .box-color {
-        width: 80vw;
-        height: 100%;
-    }
-
-    .play-btn {
-        bottom: 205px;
-        left: 40%;
+        text-align: center;
     }
     .play-instantly{
         flex-direction: column;
@@ -156,15 +147,11 @@
 
     .single-games-box {
         flex-wrap: wrap;
+        text-align: center;
     }
 
     .medium-screen {
         width: 37vw;
-    }
-    .box-color {
-        width: 37vw;
-        height: 94%;
-        bottom: 22px;
     }
     .play-instantly{
         flex-direction: column;
